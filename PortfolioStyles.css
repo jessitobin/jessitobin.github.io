@@ -1,0 +1,110 @@
+body{
+  margin-bottom:75px;
+}
+
+p{
+  color:black;
+  font-family: 'Muli:300', sans-serif;
+  font-size:18px;
+  text-align: center;
+  margin-left:25%;
+  margin-right:25%;
+  padding:10px;
+  width:50%;
+}
+
+h1{
+  color:#634B7B;
+  font-family: 'Dancing Script', cursive;
+  font-size:100px;
+  text-align:center;
+}
+
+h2{
+  color:black;
+  font-family: 'Muli:400', sans-serif;
+  font-size:30px;
+  text-align:center;
+  margin-left:75px;
+  margin-right: 75px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h3{
+  color:#634B7B;
+  font-family: 'Muli', sans-serif;
+  font-size:24px;
+  text-align:center;
+  padding-top:0px;
+  margin-left:10%;
+  margin-right:10%;
+  width:80%;
+}
+
+h4{
+  color:#999B9E;
+  font-family: 'Muli', sans-serif;
+  font-size:36px;
+  text-align:left;
+  margin-left:15%;
+}
+
+a{
+  color:#634B7B;
+  font-family: 'Muli:600', sans-serif;
+  font-size:24px;
+  text-decoration: none;
+  text-align:center;
+}
+
+img{
+  display:block;
+  width:100%;
+}
+
+br{
+margin-top:20px;
+}
+
+#headerimage-aboutme{
+background-image: url(Images/AboutMe-header.jpg);
+height:500px;
+background-size: cover;
+}
+
+#AboutMeIntro{
+text-align:left;
+color:black;
+font-family: 'Muli:300', sans-serif;
+font-size:18px;
+margin-left:15%;
+width:60%;
+}
+
+#icon{
+  width: 5%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+#headerimage-home{
+background-image: url(Images/HOME-header.jpg);
+height:800px;
+background-size: cover;
+}
+
+@media (max-width:800px) {
+  body{
+  background-color:grey;
+  }
+  h1{
+    font-size: 50px;
+  }
+}
+
+@media(min-width:1000px) {
+  body{
+    background-color:pink;
+  }
+}
