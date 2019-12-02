@@ -93,18 +93,3 @@ background-image: url(Images/HOME-header.jpg);
 height:800px;
 background-size: cover;
 }
-
-@media (max-width:800px) {
-  body{
-  background-color:grey;
-  }
-  h1{
-    font-size: 50px;
-  }
-}
-
-@media(min-width:1000px) {
-  body{
-    background-color:pink;
-  }
-}
