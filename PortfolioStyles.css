@@ -50,16 +50,32 @@ h4{
   margin-left:15%;
 }
 
-a{
+h5{
   color:#634B7B;
-  font-family: 'Muli:600', sans-serif;
-  font-size:24px;
+  font-family: 'Dancing Script', cursive;
+  font-size:100px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+h6{
+  color:#634B7B;
+  font-family: 'Dancing Script', cursive;
+  font-size:100px;
+  text-align: right;
+  margin-right: 10%;
+}
+
+a{
+  color:white;
+  font-family: 'Muli', sans-serif;
+  font-size:20px;
   text-decoration: none;
   text-align:center;
 }
 
 img{
-  display:block;
+  display:inline;
   width:100%;
 }
 
@@ -83,13 +99,118 @@ width:60%;
 }
 
 #icon{
-  width: 5%;
-  margin-left: 45%;
-  margin-right: 45%;
+  width: 30%;
+  /* margin-left: 40%;
+  margin-right: 40%; */
 }
 
-#headerimage-home{
-background-image: url(Images/home-header.jpg);
-height:800px;
-background-size: cover;
+#headerimage-portfolio{
+  background-image: url(images/portfolio-header.jpg);
+  height: 1000px;
+  background-size:cover;
+}
+
+#intro-right{
+  text-align:right;
+  margin-right: 10%;
+}
+
+#intro-left{
+  text-align:left;
+  margin-left: 10%;
+}
+
+.hero-image{
+  background-image: url(Images/hero-image.jpg);
+  height:1000px;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container {
+  display: flex;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4C887F;
+  color: white;
+  }
+
+.topnav a.active {
+  background-color: #634b7b;
+  color: white;
+}
+
+.button{
+  background-color:#4c887f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin:4px 2px;
+  border-radius: 16px;
+}
+
+.portfolio-home-image{
+  background-image: url(images/portfolio-header.jpg);
+  height:700px;
+  width:70%;
+  background-position: left;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.aboutme-home-image{
+  background-image: url(images/aboutme-header.jpg);
+  height:700px;
+  width:70%;
+  position: right;
+  background-repeat: none;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer{
+  position:relative;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  background-color: #634b7b;
+  color:white;
+  text-align: center;
 }
