@@ -1,46 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <title>HOME</title>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Muli:200,300,400,600&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet" href="PortfolioStyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Meddon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-<body>
-  <div class="topnav">
-    <a href="index.html">home</a>
-    <a href="portfolio-index.html">portfolio</a>
-    <a href="resume_index.html">about</a>
-    <a href="contact.html">contact</a>
-    <a href="index.html"><img src="images/JTobin_PrimaryLogo.png"></a>
+  <body>
+  <nav>
+
+    <!-- TOP NAV -->
+    <ul id="nav">
+
+      <li><a class="active" href="index.html">home</a></li>
+      <li><a title="check out my stuff" href="portfolio.html">portfolio</a></li>
+      <li><a title="check meowt" href="about.html">about</a></li>
+      <li><a title="tell me nice things" href="contact.html">contact</a></li>
+    </ul>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">home</a>
+  <a href="portfolio.html">portfolio</a>
+  <a href="about.html">about</a>
+  <a href="contact.html">contact</a>
+</div>
+
+  <!-- <div id="logo">
+    <img src="images/JTobin_PrimaryLogo.png" alt="Jessi Tobin logo">
+  </div> -->
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰</button>
+</div>
+
+  </nav>
+
+<!-- HEADER IMAGE -->
+<header>
+  <div class="imagebox">
+    <div id="hero-text">
+      <div>
+      <h1>designer</h1>
+      <br>
+      <a href="portfolio.html"><span id="portfolio-button1">portfolio</span></a>
+    </div>
+    </div>
+  </div>
+</header>
+
+<!--PORTFOLIO IMAGE-->
+<div class="imagebox2">
+  <div class="home-page-headings">
+    <div>
+    <h1>portfolio</h1>
+    <p class="colortext">I've made some cool things.</p>
+    <br>
+      <a href="portfolio.html"><span  id="portfolio-button2">check it out</span></a>
+    </div>
+  </div>
+</div>
+
+<!-- THIS IS WHERE THE SIDE-BY-SIDE IMAGES START -->
+<div class="imagebox3">
+
+  <div id="about-me-image" class="home-page-headings">
+    <div>
+    <h1>about</h1>
+    <p class="colortext">I'm pretty cool.</p>
+    <br>
+    <a href="about.html"><span id="about-button">learn things</span></a>
+  </div>
   </div>
 
-    <div class="hero-image">
-      <div class="hero-text">
-        <h1> graphic designer</h1>
-        <button class="button"><a href="portfolio-index.html">portfolio</button></a>
-      </div>
+  <div id="contact-me-image" class="home-page-headings">
+    <div>
+      <h1>contact</h1>
+      <p class="colortext">Tell me I'm pretty.</p>
+      <br>
+      <a href="contact.html"><span id="contact-button">say hey</span></a>
     </div>
+  </div>
 
-    <div class="portfolio-home-image">
-      <h5>portfolio</h5>
-    </div>
-      <p id="intro-right">This is where I'll give a brief overview of my portfolio of work.</p>
-      <button class="button"><a href="portfolio-index.html">view projects</button></a>
+</div>
 
-    <div class="aboutme-home-image">
-      <h6>about me</h6>
-    </div>
-      <p id="intro-left">This is where I'll tell people they should take the time to get to know me, because I'm really cool.</p>
-      <button class="button"><a href="resume_index.html">get to know me</button></a>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-    <h5>contact me</h5>
-      <p id="intro-right">This is where I'll encourage people to talk to me because I'm really cool.</p>
-      <button class="button"><a href="contact.html">say hey</button></a>
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 
-    <br>
-    <div class="footer">
-      <p>Copyright 2019 by jessitobin</p>
-    </div>
-</body>
+<!-- NOW COMES THE FOOTER -->
+<footer>
+Copyright (c) 2019 jessitobin All Rights Reserved.
+</footer>
+
+  </body>
 </html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Meddon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- TOP NAV -->
+    <nav>
+      <ul id="nav">
+        <li><a title="take me home tonight" href="index.html">home</a></li>
+        <li><a class="active" title="check out my stuff" href="portfolio.html">portfolio</a></li>
+        <li><a title="check meowt" href="about.html">about</a></li>
+        <li><a title="tell me nice things" href="contact.html">contact</a></li>
+      </ul>
+
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">home</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+      </div>
+
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+
+    </nav>
+
+
+<!-- THIS IS THE ABOVE-THE-FOLD PICTURE AND INTRO -->
+<header>
+    <div class="headerimage">
+      <div class="about-text">
+        <h1>portfolio</h1>
+      </div>
+    </div>
+</header>
+
+<h3>graphic design</h3>
+  <p>This is where I'll describe my graphic design pieces, which I haven't decided what they will be yet. Definitely logos.</p>
+    <div class="slideshow-container">
+      <div class="mySlides1">
+        <img src="pieces/print/JTobin_PrintAd.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+      </div>
+
+      <div class="mySlides1">
+        <img src="pieces/print/JTobin_PrintAdMockup.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+        <img src="pieces/digital/JTobin_EmailHeader.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+
+<h3>print design</h3>
+  <p>This is where I'll talk in brief about my print designs, which include: posters, flyers, and infographics.</p>
+    <div class="slideshow-container">
+      <div class="mySlides2">
+        <img src="pieces/print/posters/JTobin_MoviePosterMockup.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <img src="pieces/print/posters/JTobin_MoviePoster2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <img src="pieces/print/JTobin_Wishtree-BookcoverMockup.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <img src="pieces/print/BookCover-Illustration.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <img src="pieces/print/BookCover-Soft.png" style="width:100%">
+      </div>
+
+      <div class="mySlides2">
+        <img src="pieces/print/BookCover-Gold.png" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+
+    <h3>apparel design</h3>
+      <p>This is where I'll show off my awesome knack for t-shirt design.</p>
+        <div class="slideshow-container">
+          <div class="mySlides3">
+            <img src="pieces/apparel/JTobin_DadaTShirt.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides3">
+            <img src="pieces/apparel/JTobin_DisneyTShirt.png" style="width:100%">
+          </div>
+
+          <div class="mySlides3">
+            <img src="pieces/apparel/JTobin_ReStoreUniform.png" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+
+<h3>just for fun</h3>
+  <p>It will include illustrations, crochet pieces, a few examples of handlettering, and maybe some embroidery projects. The purpose of this section is to show that I have a wide range of hobbies and skills and that being creative is a lifestyle and not just a job.</p>
+    <div class="slideshow-container">
+      <div class="mySlides4">
+        <img src="pieces/just_for_fun/JTobin_Map.png" style="width:100%">
+      </div>
+
+      <div class="mySlides4">
+        <img src="pieces/just_for_fun/JTobin_Calligraphy-WoodSign.jpg" style="width:100%">
+      </div>
+
+      <!-- <div class="mySlides4">
+        <img src="img_band_ny.jpg" style="width:100%">
+      </div> -->
+
+      <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+    </div>
+
+    <h3>web and motion</h3>
+      <p>This section will include animated vectors, VFX, and an animated logo.</p>
+        <div class="slideshow-container">
+          <div class="mySlides5">
+            <img src="pieces/print/posters/JTobin_MoviePosterMockup.jpg" style="width:100%">
+          </div>
+
+          <!-- <div class="mySlides5">
+            <img src="img_band_la.jpg" style="width:100%">
+          </div> -->
+
+          <!-- <div class="mySlides5">
+            <img src="img_band_ny.jpg" style="width:100%">
+          </div> -->
+
+          <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+
+<script>
+
+// JS FOR IMAGE GALLERIES
+var slideIndex = [1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+
+// JS FOR MOBILE NAV MENU
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+</script>
+
+  <br>
+
+<!-- THIS IS THE FOOTER -->
+
+  <footer>
+  Copyright (c) 2019 jessitobin All Rights Reserved.
+  </footer>
+
+</body>
+</html>
